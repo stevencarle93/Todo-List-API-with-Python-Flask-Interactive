@@ -1,6 +1,7 @@
 from flask import Flask, jsonify, request, json
 app = Flask(__name__)
 
+#Todos definition
 todos = [
     { "label":"Sacar al perro", "done": True },
     { "label":"Cocinar frijoles", "done": False }
